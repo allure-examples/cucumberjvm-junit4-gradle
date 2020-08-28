@@ -1,0 +1,145 @@
+{
+  "uid" : "16ad18f0b1cf31c3",
+  "name" : "Delete existing label for authorized user",
+  "fullName" : "Labels: Delete existing label for authorized user",
+  "historyId" : "3b99172849a956d077462dbdc8532625",
+  "time" : {
+    "start" : 1598593816015,
+    "stop" : 1598593816028,
+    "duration" : 13
+  },
+  "status" : "broken",
+  "statusMessage" : "Element not found for xpath [//div[@class='something']]",
+  "statusTrace" : "java.lang.RuntimeException: Element not found for xpath [//div[@class='something']]\n\tat io.qameta.allure.examples.cucumber5.WebSteps.maybeThrowElementNotFoundException(WebSteps.java:89)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.createLabelWithTitle(WebSteps.java:29)\n\tat ✽.I create label with title \"hello\"(file:///home/runner/work/allure-cucumber5-testng-gradle-kts/allure-cucumber5-testng-gradle-kts/src/test/resources/features/labels-web.feature:26)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Element not found for xpath [//div[@class='something']]",
+    "statusTrace" : "java.lang.RuntimeException: Element not found for xpath [//div[@class='something']]\n\tat io.qameta.allure.examples.cucumber5.WebSteps.maybeThrowElementNotFoundException(WebSteps.java:89)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.createLabelWithTitle(WebSteps.java:29)\n\tat ✽.I create label with title \"hello\"(file:///home/runner/work/allure-cucumber5-testng-gradle-kts/allure-cucumber5-testng-gradle-kts/src/test/resources/features/labels-web.feature:26)\n",
+    "steps" : [ {
+      "name" : "When  I open labels page",
+      "time" : {
+        "start" : 1598593816016,
+        "stop" : 1598593816016,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I create label with title \"hello\"",
+      "time" : {
+        "start" : 1598593816017,
+        "stop" : 1598593816020,
+        "duration" : 3
+      },
+      "status" : "broken",
+      "statusMessage" : "Element not found for xpath [//div[@class='something']]",
+      "statusTrace" : "java.lang.RuntimeException: Element not found for xpath [//div[@class='something']]\n\tat io.qameta.allure.examples.cucumber5.WebSteps.maybeThrowElementNotFoundException(WebSteps.java:89)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.createLabelWithTitle(WebSteps.java:29)\n\tat ✽.I create label with title \"hello\"(file:///home/runner/work/allure-cucumber5-testng-gradle-kts/allure-cucumber5-testng-gradle-kts/src/test/resources/features/labels-web.feature:26)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And  I delete label with title \"hello\"",
+      "time" : {
+        "start" : 1598593816025,
+        "stop" : 1598593816026,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should not see note with content \"hello\"",
+      "time" : {
+        "start" : 1598593816027,
+        "stop" : 1598593816027,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "fv-az67"
+  }, {
+    "name" : "thread",
+    "value" : "4581@fv-az67.Test worker(9)"
+  }, {
+    "name" : "feature",
+    "value" : "Labels"
+  }, {
+    "name" : "story",
+    "value" : "Delete existing label for authorized user"
+  }, {
+    "name" : "suite",
+    "value" : "Labels"
+  }, {
+    "name" : "testClass",
+    "value" : "Delete existing label for authorized user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/allure-cucumber5-testng-gradle-kts/allure-cucumber5-testng-gradle-kts/src/test/resources/features/labels-web.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.labels-web_feature.Labels"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "16ad18f0b1cf31c3.json",
+  "parameterValues" : [ ]
+}
